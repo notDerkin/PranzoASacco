@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4300516D2A1B9D90006F541F /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4300516C2A1B9D90006F541F /* Styling.swift */; };
+		430051822A1BB44B006F541F /* Livvic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 430051712A1BB44A006F541F /* Livvic-Bold.ttf */; };
+		432136832A1BC0E7009BBE62 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136822A1BC0E7009BBE62 /* CustomTextField.swift */; };
+		432136852A1C9F1A009BBE62 /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136842A1C9F1A009BBE62 /* GameCard.swift */; };
+		432136872A1CA312009BBE62 /* AddedQuestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136862A1CA312009BBE62 /* AddedQuestionCard.swift */; };
+		432136892A1CAA49009BBE62 /* GameDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136882A1CAA49009BBE62 /* GameDescriptionView.swift */; };
+		4321368C2A1CB310009BBE62 /* JoinPartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4321368B2A1CB310009BBE62 /* JoinPartyView.swift */; };
+		4321368E2A1CBCD6009BBE62 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4321368D2A1CBCD6009BBE62 /* Header.swift */; };
+		432136902A1CBECE009BBE62 /* AddQuizQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4321368F2A1CBECE009BBE62 /* AddQuizQuestionView.swift */; };
+		432136922A1CF1C6009BBE62 /* CreatePartyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136912A1CF1C6009BBE62 /* CreatePartyView.swift */; };
+		432136942A1CF2D9009BBE62 /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136932A1CF2D9009BBE62 /* CustomToggle.swift */; };
+		432136982A1CFBBA009BBE62 /* AddTeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136972A1CFBBA009BBE62 /* AddTeamsView.swift */; };
+		4321369A2A1CFC75009BBE62 /* AddedTeamCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136992A1CFC75009BBE62 /* AddedTeamCard.swift */; };
+		4321369C2A1D3456009BBE62 /* CreateTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4321369B2A1D3456009BBE62 /* CreateTeamView.swift */; };
+		432136A02A1D5A59009BBE62 /* GameSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4321369F2A1D5A59009BBE62 /* GameSelectionView.swift */; };
+		432136A22A1D6596009BBE62 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432136A12A1D6596009BBE62 /* GameDetailView.swift */; };
+		43833EF82A1D891E00C6BBEA /* AllQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833EF72A1D891E00C6BBEA /* AllQuestionsView.swift */; };
+		43833EFA2A1D8D9600C6BBEA /* NewPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833EF92A1D8D9600C6BBEA /* NewPlayerView.swift */; };
+		43833EFC2A1D8EDF00C6BBEA /* WaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833EFB2A1D8EDF00C6BBEA /* WaitingView.swift */; };
+		43833EFE2A1D959300C6BBEA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833EFD2A1D959300C6BBEA /* GameView.swift */; };
+		43833F002A1DF3BB00C6BBEA /* CustomPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833EFF2A1DF3BB00C6BBEA /* CustomPageController.swift */; };
+		43833F022A1DFCFE00C6BBEA /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833F012A1DFCFE00C6BBEA /* QuestionView.swift */; };
+		43833F042A1E254600C6BBEA /* QuestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833F032A1E254600C6BBEA /* QuestionCard.swift */; };
+		43833F062A1E261500C6BBEA /* AnswerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833F052A1E261500C6BBEA /* AnswerBox.swift */; };
+		43833F082A1E2AC900C6BBEA /* QuestionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833F072A1E2AC900C6BBEA /* QuestionHeader.swift */; };
+		43833F0A2A1E2B0400C6BBEA /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833F092A1E2B0400C6BBEA /* Timer.swift */; };
+		43833F0C2A1E47F400C6BBEA /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43833F0B2A1E47F400C6BBEA /* CodeView.swift */; };
+		43E71D552A1B9C0A007C1B97 /* SocialGatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E71D542A1B9C0A007C1B97 /* SocialGatherApp.swift */; };
+		43E71D572A1B9C0A007C1B97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E71D562A1B9C0A007C1B97 /* ContentView.swift */; };
+		43E71D592A1B9C0B007C1B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E71D582A1B9C0B007C1B97 /* Assets.xcassets */; };
+		43E71D5C2A1B9C0B007C1B97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E71D5B2A1B9C0B007C1B97 /* Preview Assets.xcassets */; };
+		AAFA40BA2A1CF21E00F678BF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA40B92A1CF21E00F678BF /* Model.swift */; };
+		AAFA40BD2A1CF25700F678BF /* PartyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFA40BC2A1CF25700F678BF /* PartyViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4300516C2A1B9D90006F541F /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
+		430051712A1BB44A006F541F /* Livvic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Livvic-Bold.ttf"; sourceTree = "<group>"; };
+		430051912A1BB4AA006F541F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		432136822A1BC0E7009BBE62 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		432136842A1C9F1A009BBE62 /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
+		432136862A1CA312009BBE62 /* AddedQuestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedQuestionCard.swift; sourceTree = "<group>"; };
+		432136882A1CAA49009BBE62 /* GameDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDescriptionView.swift; sourceTree = "<group>"; };
+		4321368B2A1CB310009BBE62 /* JoinPartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinPartyView.swift; sourceTree = "<group>"; };
+		4321368D2A1CBCD6009BBE62 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		4321368F2A1CBECE009BBE62 /* AddQuizQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuizQuestionView.swift; sourceTree = "<group>"; };
+		432136912A1CF1C6009BBE62 /* CreatePartyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePartyView.swift; sourceTree = "<group>"; };
+		432136932A1CF2D9009BBE62 /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		432136972A1CFBBA009BBE62 /* AddTeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTeamsView.swift; sourceTree = "<group>"; };
+		432136992A1CFC75009BBE62 /* AddedTeamCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedTeamCard.swift; sourceTree = "<group>"; };
+		4321369B2A1D3456009BBE62 /* CreateTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamView.swift; sourceTree = "<group>"; };
+		4321369F2A1D5A59009BBE62 /* GameSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionView.swift; sourceTree = "<group>"; };
+		432136A12A1D6596009BBE62 /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		43833EF72A1D891E00C6BBEA /* AllQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllQuestionsView.swift; sourceTree = "<group>"; };
+		43833EF92A1D8D9600C6BBEA /* NewPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlayerView.swift; sourceTree = "<group>"; };
+		43833EFB2A1D8EDF00C6BBEA /* WaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingView.swift; sourceTree = "<group>"; };
+		43833EFD2A1D959300C6BBEA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		43833EFF2A1DF3BB00C6BBEA /* CustomPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageController.swift; sourceTree = "<group>"; };
+		43833F012A1DFCFE00C6BBEA /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		43833F032A1E254600C6BBEA /* QuestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCard.swift; sourceTree = "<group>"; };
+		43833F052A1E261500C6BBEA /* AnswerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerBox.swift; sourceTree = "<group>"; };
+		43833F072A1E2AC900C6BBEA /* QuestionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHeader.swift; sourceTree = "<group>"; };
+		43833F092A1E2B0400C6BBEA /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		43833F0B2A1E47F400C6BBEA /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		43E71D512A1B9C0A007C1B97 /* SocialGather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialGather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E71D542A1B9C0A007C1B97 /* SocialGatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialGatherApp.swift; sourceTree = "<group>"; };
+		43E71D562A1B9C0A007C1B97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43E71D582A1B9C0B007C1B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43E71D5B2A1B9C0B007C1B97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAFA40B92A1CF21E00F678BF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AAFA40BC2A1CF25700F678BF /* PartyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43E71D4E2A1B9C0A007C1B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4300516E2A1BB44A006F541F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				430051712A1BB44A006F541F /* Livvic-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		432136812A1BC0DA009BBE62 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				43833F052A1E261500C6BBEA /* AnswerBox.swift */,
+				432136822A1BC0E7009BBE62 /* CustomTextField.swift */,
+				43833EFF2A1DF3BB00C6BBEA /* CustomPageController.swift */,
+				4321368D2A1CBCD6009BBE62 /* Header.swift */,
+				432136842A1C9F1A009BBE62 /* GameCard.swift */,
+				432136862A1CA312009BBE62 /* AddedQuestionCard.swift */,
+				432136992A1CFC75009BBE62 /* AddedTeamCard.swift */,
+				432136932A1CF2D9009BBE62 /* CustomToggle.swift */,
+				43833F072A1E2AC900C6BBEA /* QuestionHeader.swift */,
+				43833F092A1E2B0400C6BBEA /* Timer.swift */,
+				43833F032A1E254600C6BBEA /* QuestionCard.swift */,
+				43833F0B2A1E47F400C6BBEA /* CodeView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4321368A2A1CAA59009BBE62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				432136882A1CAA49009BBE62 /* GameDescriptionView.swift */,
+				4321368B2A1CB310009BBE62 /* JoinPartyView.swift */,
+				43833EF92A1D8D9600C6BBEA /* NewPlayerView.swift */,
+				43833EFB2A1D8EDF00C6BBEA /* WaitingView.swift */,
+				43833EFD2A1D959300C6BBEA /* GameView.swift */,
+				43833F012A1DFCFE00C6BBEA /* QuestionView.swift */,
+				4321368F2A1CBECE009BBE62 /* AddQuizQuestionView.swift */,
+				432136912A1CF1C6009BBE62 /* CreatePartyView.swift */,
+				432136972A1CFBBA009BBE62 /* AddTeamsView.swift */,
+				4321369B2A1D3456009BBE62 /* CreateTeamView.swift */,
+				4321369F2A1D5A59009BBE62 /* GameSelectionView.swift */,
+				432136A12A1D6596009BBE62 /* GameDetailView.swift */,
+				43833EF72A1D891E00C6BBEA /* AllQuestionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43E71D482A1B9C0A007C1B97 = {
+			isa = PBXGroup;
+			children = (
+				4300516E2A1BB44A006F541F /* Fonts */,
+				43E71D532A1B9C0A007C1B97 /* SocialGather */,
+				43E71D522A1B9C0A007C1B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43E71D522A1B9C0A007C1B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43E71D512A1B9C0A007C1B97 /* SocialGather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43E71D532A1B9C0A007C1B97 /* SocialGather */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA40BB2A1CF24C00F678BF /* ViewModels */,
+				AAFA40B82A1CF20D00F678BF /* Models */,
+				430051912A1BB4AA006F541F /* Info.plist */,
+				43E71D542A1B9C0A007C1B97 /* SocialGatherApp.swift */,
+				43E71D562A1B9C0A007C1B97 /* ContentView.swift */,
+				4300516C2A1B9D90006F541F /* Styling.swift */,
+				4321368A2A1CAA59009BBE62 /* Views */,
+				432136812A1BC0DA009BBE62 /* Components */,
+				43E71D582A1B9C0B007C1B97 /* Assets.xcassets */,
+				43E71D5A2A1B9C0B007C1B97 /* Preview Content */,
+			);
+			path = SocialGather;
+			sourceTree = "<group>";
+		};
+		43E71D5A2A1B9C0B007C1B97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43E71D5B2A1B9C0B007C1B97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAFA40B82A1CF20D00F678BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA40B92A1CF21E00F678BF /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAFA40BB2A1CF24C00F678BF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AAFA40BC2A1CF25700F678BF /* PartyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43E71D502A1B9C0A007C1B97 /* SocialGather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43E71D5F2A1B9C0B007C1B97 /* Build configuration list for PBXNativeTarget "SocialGather" */;
+			buildPhases = (
+				43E71D4D2A1B9C0A007C1B97 /* Sources */,
+				43E71D4E2A1B9C0A007C1B97 /* Frameworks */,
+				43E71D4F2A1B9C0A007C1B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialGather;
+			productName = SocialGather;
+			productReference = 43E71D512A1B9C0A007C1B97 /* SocialGather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43E71D492A1B9C0A007C1B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					43E71D502A1B9C0A007C1B97 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 43E71D4C2A1B9C0A007C1B97 /* Build configuration list for PBXProject "SocialGather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43E71D482A1B9C0A007C1B97;
+			productRefGroup = 43E71D522A1B9C0A007C1B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43E71D502A1B9C0A007C1B97 /* SocialGather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43E71D4F2A1B9C0A007C1B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E71D5C2A1B9C0B007C1B97 /* Preview Assets.xcassets in Resources */,
+				430051822A1BB44B006F541F /* Livvic-Bold.ttf in Resources */,
+				43E71D592A1B9C0B007C1B97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43E71D4D2A1B9C0A007C1B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43833F022A1DFCFE00C6BBEA /* QuestionView.swift in Sources */,
+				43833EFC2A1D8EDF00C6BBEA /* WaitingView.swift in Sources */,
+				AAFA40BD2A1CF25700F678BF /* PartyViewModel.swift in Sources */,
+				43833F0C2A1E47F400C6BBEA /* CodeView.swift in Sources */,
+				43833F062A1E261500C6BBEA /* AnswerBox.swift in Sources */,
+				4321369A2A1CFC75009BBE62 /* AddedTeamCard.swift in Sources */,
+				432136852A1C9F1A009BBE62 /* GameCard.swift in Sources */,
+				432136902A1CBECE009BBE62 /* AddQuizQuestionView.swift in Sources */,
+				432136892A1CAA49009BBE62 /* GameDescriptionView.swift in Sources */,
+				43833EFA2A1D8D9600C6BBEA /* NewPlayerView.swift in Sources */,
+				AAFA40BA2A1CF21E00F678BF /* Model.swift in Sources */,
+				4321369C2A1D3456009BBE62 /* CreateTeamView.swift in Sources */,
+				43833F002A1DF3BB00C6BBEA /* CustomPageController.swift in Sources */,
+				432136832A1BC0E7009BBE62 /* CustomTextField.swift in Sources */,
+				43833F0A2A1E2B0400C6BBEA /* Timer.swift in Sources */,
+				43833EF82A1D891E00C6BBEA /* AllQuestionsView.swift in Sources */,
+				4321368E2A1CBCD6009BBE62 /* Header.swift in Sources */,
+				43833EFE2A1D959300C6BBEA /* GameView.swift in Sources */,
+				4300516D2A1B9D90006F541F /* Styling.swift in Sources */,
+				432136942A1CF2D9009BBE62 /* CustomToggle.swift in Sources */,
+				43833F042A1E254600C6BBEA /* QuestionCard.swift in Sources */,
+				432136922A1CF1C6009BBE62 /* CreatePartyView.swift in Sources */,
+				43833F082A1E2AC900C6BBEA /* QuestionHeader.swift in Sources */,
+				43E71D572A1B9C0A007C1B97 /* ContentView.swift in Sources */,
+				432136872A1CA312009BBE62 /* AddedQuestionCard.swift in Sources */,
+				432136A02A1D5A59009BBE62 /* GameSelectionView.swift in Sources */,
+				432136982A1CFBBA009BBE62 /* AddTeamsView.swift in Sources */,
+				4321368C2A1CB310009BBE62 /* JoinPartyView.swift in Sources */,
+				43E71D552A1B9C0A007C1B97 /* SocialGatherApp.swift in Sources */,
+				432136A22A1D6596009BBE62 /* GameDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43E71D5D2A1B9C0B007C1B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43E71D5E2A1B9C0B007C1B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43E71D602A1B9C0B007C1B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SocialGather/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TD72JJG8D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialGather/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrea.SocialGather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43E71D612A1B9C0B007C1B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SocialGather/Preview Content\"";
+				DEVELOPMENT_TEAM = 7TD72JJG8D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocialGather/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = andrea.SocialGather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43E71D4C2A1B9C0A007C1B97 /* Build configuration list for PBXProject "SocialGather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E71D5D2A1B9C0B007C1B97 /* Debug */,
+				43E71D5E2A1B9C0B007C1B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43E71D5F2A1B9C0B007C1B97 /* Build configuration list for PBXNativeTarget "SocialGather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E71D602A1B9C0B007C1B97 /* Debug */,
+				43E71D612A1B9C0B007C1B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43E71D492A1B9C0A007C1B97 /* Project object */;
+}
