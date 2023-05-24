@@ -11,8 +11,8 @@ Il progetto è composto da due parti:
 - Una app Server Side.
 
 ## Come avviare il progetto?
-1) Download [SERVER SIDE] e avvia il progetto tramite Xcode, tutte le chiamate API sono già pronte, e ciò avvierà un server con host locale all'indirizzo [http://localhost:8080/](http://localhost:8080/)
-2) Download [CLINET SIDE] e avvia il progetto tramite Xcode utilizzando il simulatore esterno oppure buildando la applicazione su un dispositivo iPhone, così avrete la possiblità di testare SocialGathering nella sua interezza.
+1) Download "Server/hackatonServer" e avvia il progetto tramite Xcode, tutte le chiamate API sono già pronte, e ciò avvierà un server con host locale all'indirizzo [http://localhost:8080/](http://localhost:8080/)
+2) Download "Client/SocialGathering" e avvia il progetto tramite Xcode utilizzando il simulatore esterno oppure buildando la applicazione su un dispositivo iPhone, così avrete la possiblità di testare SocialGathering nella sua interezza.
 
 ## Risorse 
 [Prototipo Figma](https://www.figma.com/file/eXavUE0LTMk9ZQjDLfRBk8/SocialGather?type=design&node-id=0-1&t=SmTY7cAVaskTYMy2-0)
